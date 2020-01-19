@@ -1,0 +1,26 @@
+{
+  "name": "coinleech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "pkg . --out-path build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "scripts": "*.js",
+    "targets": [
+      "node10"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
